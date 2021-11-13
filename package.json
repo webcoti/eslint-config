@@ -1,6 +1,6 @@
 {
   "name": "@webcoti/eslint-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "shareable config for eslint",
   "repository": "webcoti/eslint-config",
   "license": "MIT",
