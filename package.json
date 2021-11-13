@@ -25,12 +25,12 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.4.1"
+    "eslint-plugin-react-hooks": "^4.3.0"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
     "np": "^7.5.0",
+    "prettier": "^2.4.1",
     "prettier-config-webcoti": "^1.0.0"
   },
   "peerDependencies": {
