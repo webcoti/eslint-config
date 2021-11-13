@@ -1,9 +1,9 @@
-# eslint-config-cotiweb
+# @webcoti/eslint-config
 
 ## Instalação
 
 ```bash
-npm install eslint-config-stylelint --save-dev
+npm install @webcoti/eslint-config --save-dev
 ```
 
 ## Uso
@@ -13,7 +13,7 @@ Adicione ao `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": ["stylelint"]
+    "extends": "@webcoti/eslint-config"
   }
 }
 ```
