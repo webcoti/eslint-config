@@ -2,24 +2,18 @@
   "name": "eslint-config-webcoti",
   "version": "1.0.0",
   "description": "shareable config for eslint",
-  "author": "Fabiano Nunes Parente",
-  "license": "MIT",
   "repository": "webcoti/eslint-config-webcoti",
+  "license": "MIT",
+  "author": "Fabiano Nunes Parente",
   "main": "index.js",
   "files": [
     ".eslintrc.js"
   ],
-  "devDependencies": {
-    "eslint": "^8.2.0",
-    "np": "^7.5.0"
-  },
   "scripts": {
     "lint": "eslint .",
     "release": "np"
   },
-  "peerDependencies": {
-    "eslint": "^8.2.0"
-  },
+  "prettier": "prettier-config-webcoti",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.16.3",
@@ -33,6 +27,14 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "np": "^7.5.0",
+    "prettier-config-webcoti": "^1.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.2.0"
   },
   "publishConfig": {
     "access": "public"
