@@ -15,8 +15,6 @@
   },
   "prettier": "@webcoti/prettier-config",
   "dependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/eslint-parser": "^7.16.3",
     "@webcoti/prettier-config": "^1.1.1",
     "eslint-config-airbnb": "^19.0.0",
     "eslint-config-prettier": "^8.3.0",

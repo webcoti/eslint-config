@@ -1,11 +1,12 @@
 module.exports = {
-  parser: '@babel/eslint-parser',
-  parserOptions: {
-    requireConfigFile: false,
-  },
   env: {
     browser: true,
-    es6: true,
+    node: true,
+    es2021: true,
+  },
+  parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 2021,
   },
   plugins: ['jquery'],
   extends: [
