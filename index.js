@@ -7,12 +7,13 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  plugins: ['react-hooks', 'jquery'],
+  plugins: ['jquery'],
   extends: [
     'plugin:react/recommended',
     'airbnb',
-    'prettier',
+    'plugin:react-hooks/recommended',
     'plugin:jquery/deprecated',
+    'plugin:prettier/recommended',
   ],
   rules: {
     'react/prop-types': [0],
