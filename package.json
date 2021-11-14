@@ -10,7 +10,7 @@
     ".eslintrc.js"
   ],
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . --ext .js,.jsx",
     "release": "np"
   },
   "prettier": "@webcoti/prettier-config",
