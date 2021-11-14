@@ -23,8 +23,6 @@ module.exports = {
       'error',
       { props: true, ignorePropertyModificationsFor: ['draft', 'acc'] },
     ],
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
   },
   settings: {
     'import/resolver': {
