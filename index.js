@@ -23,6 +23,10 @@ module.exports = {
       'error',
       { props: true, ignorePropertyModificationsFor: ['draft', 'acc'] },
     ],
+    'react/function-component-definition': [
+      'error',
+      { namedComponents: 'function-declaration' },
+    ],
   },
   settings: {
     'import/resolver': {
