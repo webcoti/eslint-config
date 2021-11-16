@@ -8,7 +8,7 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 2021,
   },
-  plugins: ['jquery'],
+  plugins: ['jquery', 'es'],
   extends: [
     'plugin:react/recommended',
     'airbnb',
@@ -29,6 +29,7 @@ module.exports = {
       'error',
       { namedComponents: 'function-declaration' },
     ],
+    'es/no-regexp-lookbehind-assertions': 'error',
   },
   settings: {
     'import/resolver': {
