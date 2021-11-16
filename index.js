@@ -17,9 +17,9 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
-    'react/prop-types': [0],
-    'import/prefer-default-export': [0], // essa regra é irritante
-    'jsx-a11y/media-has-caption': [0],
+    'react/prop-types': 'off',
+    'import/prefer-default-export': 'off', // essa regra é irritante
+    'jsx-a11y/media-has-caption': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'no-param-reassign': [
       'error',
