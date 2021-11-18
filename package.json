@@ -5,6 +5,10 @@
   "repository": "webcoti/eslint-config",
   "license": "MIT",
   "author": "Fabiano Nunes Parente",
+  "exports": {
+    ".": "./index.js",
+    "./typescript": "./typescript.js"
+  },
   "main": "index.js",
   "files": [
     ".eslintrc.js"
