@@ -45,6 +45,20 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint/eslint-plugin'],
       extends: ['plugin:@typescript-eslint/recommended'],
+      rules: {
+        'import/no-extraneous-dependencies': [
+          'error',
+          { devDependencies: true },
+        ],
+        '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+      },
+      settings: {
+        'import/resolver': {
+          typescript: {},
+        },
+      },
     },
   ],
 }
