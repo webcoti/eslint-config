@@ -39,4 +39,12 @@ module.exports = {
       },
     },
   },
+  overrides: [
+    {
+      files: '*.+(tsx|ts)',
+      parser: '@typescript-eslint/parser',
+      plugins: ['@typescript-eslint/eslint-plugin'],
+      extends: ['plugin:@typescript-eslint/recommended'],
+    },
+  ],
 }
