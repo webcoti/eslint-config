@@ -11,7 +11,8 @@
   },
   "main": "index.js",
   "files": [
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "typescript.js"
   ],
   "scripts": {
     "lint": "eslint . --ext .js,.jsx",
