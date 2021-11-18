@@ -18,6 +18,7 @@ module.exports = {
   ],
   rules: {
     'react/prop-types': 'off',
+    'react/require-default-props': 'off',
     'import/prefer-default-export': 'off', // essa regra é irritante
     'jsx-a11y/media-has-caption': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
