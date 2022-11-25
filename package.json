@@ -40,11 +40,13 @@
     "prettier": "^2.8.0",
     "prettier-config-webcoti": "^1.0.0"
   },
-  "optionalDependencies": {
-    "typescript": "^4.9.3"
-  },
   "peerDependencies": {
     "eslint": "^8.2.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public"
