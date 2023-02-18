@@ -8,12 +8,11 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 2021,
   },
-  plugins: ['jquery', 'es'],
+  plugins: ['es'],
   extends: [
     'plugin:react/recommended',
     'airbnb',
     'plugin:react-hooks/recommended',
-    'plugin:jquery/deprecated',
     'plugin:prettier/recommended',
   ],
   rules: {
