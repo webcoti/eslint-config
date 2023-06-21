@@ -36,10 +36,10 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "@webcoti/prettier-config": "^1.6.0",
+    "@webcoti/prettier-config": "^1.7.1",
     "eslint": "^8.43.0",
-    "np": "^7.6.3",
-    "prettier": "^2.8.4",
+    "np": "^8.0.4",
+    "prettier": "^2.8.8",
     "prettier-config-webcoti": "^1.0.0"
   },
   "peerDependencies": {
