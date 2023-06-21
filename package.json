@@ -22,10 +22,10 @@
   },
   "prettier": "@webcoti/prettier-config",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
-    "@typescript-eslint/parser": "^5.52.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-es": "^4.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@webcoti/prettier-config": "^1.6.0",
-    "eslint": "^8.34.0",
+    "eslint": "^8.43.0",
     "np": "^7.6.3",
     "prettier": "^2.8.4",
     "prettier-config-webcoti": "^1.0.0"
