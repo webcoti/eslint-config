@@ -15,7 +15,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
   ],
-  ignorePatterns: ['dist', 'node_modules'],
+  ignorePatterns: ['dist', 'node_modules', 'vendor'],
   rules: {
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
