@@ -46,7 +46,7 @@
     "prettier-config-webcoti": "^1.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.2.0"
+    "eslint": "^8"
   },
   "peerDependenciesMeta": {
     "typescript": {
